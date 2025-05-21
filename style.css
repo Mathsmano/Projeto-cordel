@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+    --fonte1:"Passion One", 'cursive';
+    --fonte2:'Sriracha', "cursive";
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align:center;
+    margin: 0px 0px 50px 0px;
+    padding-top: 30px;
+    
+}
+
+header > h1 {
+    margin-top: 0px;
+    margin-bottom:1%;
+    font-size: 9vw;
+    font-family:var(--fonte1);
+    font-variant: small-caps;
+
+    
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main  p{
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.6vw;
+}
+
+#joaninha{
+    background: white url('imagens/background001.jpg') right center no-repeat fixed ;
+    background-size: cover;
+    color: white;
+    padding: 50px 50px 50px 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+
+}
+
+#trecho2{
+    background-color: rgba(0, 0, 0, 0.256);
+    display: inline-block;
+   padding: 5px;
+   text-shadow: 0.5px 0.5px 1px black;
+    
+}
+
+#papel{
+    background: white url("imagens/background002.jpg") center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 50px 50px 50px 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+
+}
+
+#trecho5{
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 0.5px 0.5px 1px black;
+   
+}
+
+footer {
+     text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;}
+   
+
+    footer > p {
+         font-size: 2vw;
+}
+    
